@@ -1,0 +1,22 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "greenit",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "node": "^20.5.0",
+    "pm2": "^5.3.0",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "start": "pm2 start ecosystem.config.js "
+  }
+}
